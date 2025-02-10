@@ -4,6 +4,9 @@ node_modules/
 # AWS SAM build artifacts
 .aws-sam/
 
+# Ignore SAM configuration file
+samconfig.toml
+
 # Python virtual environments
 .env/
 .venv/
@@ -16,8 +19,8 @@ venv/
 # AWS CloudFormation Stack Outputs
 cfn_output.json
 
-# AWS SAM generated templates
-template.yaml
+# # AWS SAM generated templates
+# template.yaml
 
 # AWS Credentials file
 .aws/
